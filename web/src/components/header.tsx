@@ -97,7 +97,7 @@ export function Header() {
     <>
       <a
         href="#summary"
-        className="sr-only z-[70] rounded-full bg-accent px-4 py-2 text-white focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
+        className="sr-only z-[70] rounded-full bg-accent px-4 py-2 text-brand-ink focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
       >
         {t.nav.skip}
       </a>
@@ -112,7 +112,7 @@ export function Header() {
             aria-label="Olist Analytics"
             className="flex items-center gap-2 text-sm font-semibold tracking-tight text-ink"
           >
-            <span aria-hidden className="grid size-7 place-items-center rounded-lg bg-accent text-white">
+            <span aria-hidden className="grid size-7 place-items-center rounded-lg bg-accent text-brand-ink">
               <svg width="15" height="15" viewBox="0 0 16 16" fill="none">
                 <path d="M2.5 13.5V9M6.2 13.5V5.5M9.8 13.5V8M13.5 13.5V2.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
               </svg>

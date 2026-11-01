@@ -173,7 +173,7 @@ export function CategoryBars() {
                   {categoryLabel(c, lang)}
                 </span>
                 <motion.span
-                  className="h-[18px] rounded-r-[4px] bg-accent"
+                  className="h-[18px] rounded-r-[4px] bg-[var(--series-1)]"
                   initial={{ width: 0 }}
                   animate={{ width: inView ? x(value) : 0 }}
                   transition={{ duration: 0.9, delay: inView ? 0.05 * i : 0, ease: [0.22, 1, 0.36, 1] }}

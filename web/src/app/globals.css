@@ -14,28 +14,32 @@
   --grid: #e1e0d9;
   --axis: #c3c2b7;
   --ring: rgba(11, 11, 11, 0.1);
-  --glow-a: rgba(42, 120, 214, 0.18);
-  --glow-b: rgba(98, 80, 214, 0.14);
+  --glow-a: rgba(242, 200, 17, 0.2);
+  --glow-b: rgba(224, 164, 0, 0.12);
+
+  /* Amarelo de BI como cor da marca (interface). */
+  --brand: #f2c811;
+  --brand-ink: #0b0b0b;
 
   /* Paleta de dados (validada para daltonismo, ver dataviz). */
-  --series-1: #2a78d6;
-  --series-2: #eb6834;
+  --series-1: #e0a400;
+  --series-2: #2a78d6;
   --series-3: #1baf7a;
   --good: #006300;
-  --accent-ink: #1c5cab;
-  --seq-100: #cde2fb;
-  --seq-200: #9ec5f4;
-  --seq-300: #6da7ec;
-  --seq-400: #3987e5;
-  --seq-500: #256abf;
-  --seq-600: #184f95;
-  --seq-700: #0d366b;
+  --accent-ink: #7a5700;
+  --seq-100: #fdf3c8;
+  --seq-200: #fbe48a;
+  --seq-300: #f5cf3d;
+  --seq-400: #e0a400;
+  --seq-500: #b88300;
+  --seq-600: #8a6200;
+  --seq-700: #5e4300;
   /* Cor do rótulo dentro de cada degrau da escala. */
   --seq-ink-100: #0b0b0b;
   --seq-ink-200: #0b0b0b;
   --seq-ink-300: #0b0b0b;
   --seq-ink-400: #0b0b0b;
-  --seq-ink-500: #ffffff;
+  --seq-ink-500: #0b0b0b;
   --seq-ink-600: #ffffff;
   --seq-ink-700: #ffffff;
 }
@@ -51,22 +55,22 @@
   --grid: #2c2c2a;
   --axis: #383835;
   --ring: rgba(255, 255, 255, 0.1);
-  --glow-a: rgba(57, 135, 229, 0.22);
-  --glow-b: rgba(144, 133, 233, 0.16);
+  --glow-a: rgba(242, 200, 17, 0.14);
+  --glow-b: rgba(201, 133, 0, 0.12);
 
-  --series-1: #3987e5;
-  --series-2: #d95926;
+  --series-1: #c98500;
+  --series-2: #3987e5;
   --series-3: #199e70;
   --good: #0ca30c;
-  --accent-ink: #86b6ef;
+  --accent-ink: #f2c811;
   /* No escuro a escala sobe em direção à luz: pouco = perto da superfície. */
-  --seq-100: #184f95;
-  --seq-200: #1c5cab;
-  --seq-300: #256abf;
-  --seq-400: #3987e5;
-  --seq-500: #6da7ec;
-  --seq-600: #9ec5f4;
-  --seq-700: #cde2fb;
+  --seq-100: #4d3800;
+  --seq-200: #6e5000;
+  --seq-300: #926a00;
+  --seq-400: #b88500;
+  --seq-500: #d9a300;
+  --seq-600: #f2c811;
+  --seq-700: #fbe48a;
   --seq-ink-100: #ffffff;
   --seq-ink-200: #ffffff;
   --seq-ink-300: #ffffff;
@@ -85,7 +89,8 @@
   --color-muted: var(--muted);
   --color-grid: var(--grid);
   --color-line: var(--ring);
-  --color-accent: var(--series-1);
+  --color-accent: var(--brand);
+  --color-brand-ink: var(--brand-ink);
   --color-accent-2: var(--series-2);
   --color-accent-ink: var(--accent-ink);
   --color-good: var(--good);
@@ -108,8 +113,8 @@ body {
 }
 
 ::selection {
-  background: var(--series-1);
-  color: #fff;
+  background: var(--brand);
+  color: var(--brand-ink);
 }
 
 /* Lenis (smooth scroll) */
