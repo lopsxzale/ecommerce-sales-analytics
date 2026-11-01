@@ -32,11 +32,16 @@ export function formatters(locale: Locale) {
         style: "currency",
         currency: "BRL",
         notation: "compact",
+        // Mínimo explícito: sem ele, versões de ICU diferentes (Node no build x navegador)
+        // geram "R$ 772,0 mil" x "R$ 772 mil" e quebram a hidratação.
+        minimumFractionDigits: 0,
         maximumFractionDigits: 1,
       }).format(v),
     /** 12,9 mil */
     compact: (v: number) =>
-      nf("compact", { notation: "compact", maximumFractionDigits: 1 }).format(v),
+      nf("compact", { notation: "compact", minimumFractionDigits: 0, maximumFractionDigits: 1 }).format(
+        v,
+      ),
     /** −0,88 (sinal de menos tipográfico) */
     signed: (v: number, digits = 2) =>
       nf(`signed${digits}`, {
