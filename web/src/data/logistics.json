@@ -1,0 +1,224 @@
+{
+  "states": [
+    {
+      "state": "SP",
+      "orders": 40494,
+      "avg_delivery_days": 8.8,
+      "median_delivery_days": 7.2,
+      "late_rate": 0.0449,
+      "avg_score": 4.246
+    },
+    {
+      "state": "PR",
+      "orders": 4923,
+      "avg_delivery_days": 12.0,
+      "median_delivery_days": 10.4,
+      "late_rate": 0.0404,
+      "avg_score": 4.24
+    },
+    {
+      "state": "MG",
+      "orders": 11354,
+      "avg_delivery_days": 12.0,
+      "median_delivery_days": 10.3,
+      "late_rate": 0.0457,
+      "avg_score": 4.192
+    },
+    {
+      "state": "DF",
+      "orders": 2080,
+      "avg_delivery_days": 13.0,
+      "median_delivery_days": 11.4,
+      "late_rate": 0.0567,
+      "avg_score": 4.131
+    },
+    {
+      "state": "SC",
+      "orders": 3546,
+      "avg_delivery_days": 15.0,
+      "median_delivery_days": 13.0,
+      "late_rate": 0.0821,
+      "avg_score": 4.134
+    },
+    {
+      "state": "RJ",
+      "orders": 12350,
+      "avg_delivery_days": 15.3,
+      "median_delivery_days": 12.0,
+      "late_rate": 0.1211,
+      "avg_score": 3.965
+    },
+    {
+      "state": "RS",
+      "orders": 5344,
+      "avg_delivery_days": 15.3,
+      "median_delivery_days": 13.2,
+      "late_rate": 0.0608,
+      "avg_score": 4.185
+    },
+    {
+      "state": "MS",
+      "orders": 701,
+      "avg_delivery_days": 15.6,
+      "median_delivery_days": 13.9,
+      "late_rate": 0.097,
+      "avg_score": 4.162
+    },
+    {
+      "state": "GO",
+      "orders": 1957,
+      "avg_delivery_days": 15.6,
+      "median_delivery_days": 13.9,
+      "late_rate": 0.0654,
+      "avg_score": 4.106
+    },
+    {
+      "state": "ES",
+      "orders": 1995,
+      "avg_delivery_days": 15.8,
+      "median_delivery_days": 13.6,
+      "late_rate": 0.1073,
+      "avg_score": 4.079
+    },
+    {
+      "state": "TO",
+      "orders": 274,
+      "avg_delivery_days": 17.7,
+      "median_delivery_days": 15.9,
+      "late_rate": 0.0985,
+      "avg_score": 4.154
+    },
+    {
+      "state": "MT",
+      "orders": 886,
+      "avg_delivery_days": 18.1,
+      "median_delivery_days": 16.1,
+      "late_rate": 0.0598,
+      "avg_score": 4.146
+    },
+    {
+      "state": "PE",
+      "orders": 1593,
+      "avg_delivery_days": 18.4,
+      "median_delivery_days": 15.7,
+      "late_rate": 0.096,
+      "avg_score": 4.083
+    },
+    {
+      "state": "RN",
+      "orders": 474,
+      "avg_delivery_days": 19.3,
+      "median_delivery_days": 16.1,
+      "late_rate": 0.0928,
+      "avg_score": 4.151
+    },
+    {
+      "state": "BA",
+      "orders": 3256,
+      "avg_delivery_days": 19.3,
+      "median_delivery_days": 16.9,
+      "late_rate": 0.1216,
+      "avg_score": 3.931
+    },
+    {
+      "state": "RO",
+      "orders": 243,
+      "avg_delivery_days": 19.4,
+      "median_delivery_days": 17.6,
+      "late_rate": 0.0288,
+      "avg_score": 4.165
+    },
+    {
+      "state": "PI",
+      "orders": 476,
+      "avg_delivery_days": 19.5,
+      "median_delivery_days": 16.3,
+      "late_rate": 0.1387,
+      "avg_score": 3.994
+    },
+    {
+      "state": "PB",
+      "orders": 517,
+      "avg_delivery_days": 20.4,
+      "median_delivery_days": 18.2,
+      "late_rate": 0.1044,
+      "avg_score": 4.076
+    },
+    {
+      "state": "AC",
+      "orders": 80,
+      "avg_delivery_days": 21.0,
+      "median_delivery_days": 18.4,
+      "late_rate": 0.0375,
+      "avg_score": 4.088
+    },
+    {
+      "state": "CE",
+      "orders": 1279,
+      "avg_delivery_days": 21.3,
+      "median_delivery_days": 18.2,
+      "late_rate": 0.1376,
+      "avg_score": 3.944
+    },
+    {
+      "state": "SE",
+      "orders": 335,
+      "avg_delivery_days": 21.5,
+      "median_delivery_days": 18.0,
+      "late_rate": 0.1522,
+      "avg_score": 3.907
+    },
+    {
+      "state": "MA",
+      "orders": 717,
+      "avg_delivery_days": 21.6,
+      "median_delivery_days": 19.2,
+      "late_rate": 0.1743,
+      "avg_score": 3.833
+    },
+    {
+      "state": "PA",
+      "orders": 946,
+      "avg_delivery_days": 23.8,
+      "median_delivery_days": 21.1,
+      "late_rate": 0.1121,
+      "avg_score": 3.914
+    },
+    {
+      "state": "AL",
+      "orders": 397,
+      "avg_delivery_days": 24.5,
+      "median_delivery_days": 22.3,
+      "late_rate": 0.2141,
+      "avg_score": 3.848
+    },
+    {
+      "state": "AM",
+      "orders": 145,
+      "avg_delivery_days": 26.4,
+      "median_delivery_days": 25.9,
+      "late_rate": 0.0276,
+      "avg_score": 4.243
+    },
+    {
+      "state": "AP",
+      "orders": 67,
+      "avg_delivery_days": 27.2,
+      "median_delivery_days": 24.3,
+      "late_rate": 0.0299,
+      "avg_score": 4.242
+    },
+    {
+      "state": "RR",
+      "orders": 41,
+      "avg_delivery_days": 29.4,
+      "median_delivery_days": 25.0,
+      "late_rate": 0.122,
+      "avg_score": 3.902
+    }
+  ],
+  "correlation": {
+    "late_rate_vs_score": -0.884,
+    "delivery_days_vs_score": -0.453
+  }
+}

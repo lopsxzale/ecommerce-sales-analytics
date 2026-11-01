@@ -1,0 +1,1033 @@
+{
+  "monthly": [
+    {
+      "month": "2017-01",
+      "orders": 787,
+      "revenue": 136943.46,
+      "avg_ticket": 174.01,
+      "revenue_mom": null,
+      "revenue_ma3": 136943.46
+    },
+    {
+      "month": "2017-02",
+      "orders": 1718,
+      "revenue": 283561.69,
+      "avg_ticket": 165.05,
+      "revenue_mom": 1.0706,
+      "revenue_ma3": 210252.58
+    },
+    {
+      "month": "2017-03",
+      "orders": 2617,
+      "revenue": 425617.96,
+      "avg_ticket": 162.64,
+      "revenue_mom": 0.501,
+      "revenue_ma3": 282041.04
+    },
+    {
+      "month": "2017-04",
+      "orders": 2377,
+      "revenue": 405848.61,
+      "avg_ticket": 170.74,
+      "revenue_mom": -0.0464,
+      "revenue_ma3": 371676.09
+    },
+    {
+      "month": "2017-05",
+      "orders": 3640,
+      "revenue": 582710.83,
+      "avg_ticket": 160.09,
+      "revenue_mom": 0.4358,
+      "revenue_ma3": 471392.47
+    },
+    {
+      "month": "2017-06",
+      "orders": 3205,
+      "revenue": 499652.24,
+      "avg_ticket": 155.9,
+      "revenue_mom": -0.1425,
+      "revenue_ma3": 496070.56
+    },
+    {
+      "month": "2017-07",
+      "orders": 3946,
+      "revenue": 578753.73,
+      "avg_ticket": 146.67,
+      "revenue_mom": 0.1583,
+      "revenue_ma3": 553705.6
+    },
+    {
+      "month": "2017-08",
+      "orders": 4272,
+      "revenue": 661903.52,
+      "avg_ticket": 154.94,
+      "revenue_mom": 0.1437,
+      "revenue_ma3": 580103.16
+    },
+    {
+      "month": "2017-09",
+      "orders": 4227,
+      "revenue": 717102.72,
+      "avg_ticket": 169.65,
+      "revenue_mom": 0.0834,
+      "revenue_ma3": 652586.66
+    },
+    {
+      "month": "2017-10",
+      "orders": 4547,
+      "revenue": 764756.03,
+      "avg_ticket": 168.19,
+      "revenue_mom": 0.0665,
+      "revenue_ma3": 714587.42
+    },
+    {
+      "month": "2017-11",
+      "orders": 7421,
+      "revenue": 1172191.68,
+      "avg_ticket": 157.96,
+      "revenue_mom": 0.5328,
+      "revenue_ma3": 884683.48
+    },
+    {
+      "month": "2017-12",
+      "orders": 5618,
+      "revenue": 861526.77,
+      "avg_ticket": 153.35,
+      "revenue_mom": -0.265,
+      "revenue_ma3": 932824.83
+    },
+    {
+      "month": "2018-01",
+      "orders": 7187,
+      "revenue": 1101920.01,
+      "avg_ticket": 153.32,
+      "revenue_mom": 0.279,
+      "revenue_ma3": 1045212.82
+    },
+    {
+      "month": "2018-02",
+      "orders": 6624,
+      "revenue": 979486.16,
+      "avg_ticket": 147.87,
+      "revenue_mom": -0.1111,
+      "revenue_ma3": 980977.65
+    },
+    {
+      "month": "2018-03",
+      "orders": 7168,
+      "revenue": 1152656.99,
+      "avg_ticket": 160.81,
+      "revenue_mom": 0.1768,
+      "revenue_ma3": 1078021.05
+    },
+    {
+      "month": "2018-04",
+      "orders": 6919,
+      "revenue": 1156248.89,
+      "avg_ticket": 167.11,
+      "revenue_mom": 0.0031,
+      "revenue_ma3": 1096130.68
+    },
+    {
+      "month": "2018-05",
+      "orders": 6833,
+      "revenue": 1145686.46,
+      "avg_ticket": 167.67,
+      "revenue_mom": -0.0091,
+      "revenue_ma3": 1151530.78
+    },
+    {
+      "month": "2018-06",
+      "orders": 6145,
+      "revenue": 1020381.9,
+      "avg_ticket": 166.05,
+      "revenue_mom": -0.1094,
+      "revenue_ma3": 1107439.08
+    },
+    {
+      "month": "2018-07",
+      "orders": 6233,
+      "revenue": 1039783.58,
+      "avg_ticket": 166.82,
+      "revenue_mom": 0.019,
+      "revenue_ma3": 1068617.31
+    },
+    {
+      "month": "2018-08",
+      "orders": 6421,
+      "revenue": 996973.51,
+      "avg_ticket": 155.27,
+      "revenue_mom": -0.0412,
+      "revenue_ma3": 1019046.33
+    }
+  ],
+  "heatmap": [
+    {
+      "dow": 1,
+      "hour": 0,
+      "orders": 321
+    },
+    {
+      "dow": 1,
+      "hour": 1,
+      "orders": 134
+    },
+    {
+      "dow": 1,
+      "hour": 2,
+      "orders": 63
+    },
+    {
+      "dow": 1,
+      "hour": 3,
+      "orders": 36
+    },
+    {
+      "dow": 1,
+      "hour": 4,
+      "orders": 19
+    },
+    {
+      "dow": 1,
+      "hour": 5,
+      "orders": 22
+    },
+    {
+      "dow": 1,
+      "hour": 6,
+      "orders": 65
+    },
+    {
+      "dow": 1,
+      "hour": 7,
+      "orders": 157
+    },
+    {
+      "dow": 1,
+      "hour": 8,
+      "orders": 474
+    },
+    {
+      "dow": 1,
+      "hour": 9,
+      "orders": 760
+    },
+    {
+      "dow": 1,
+      "hour": 10,
+      "orders": 1017
+    },
+    {
+      "dow": 1,
+      "hour": 11,
+      "orders": 1064
+    },
+    {
+      "dow": 1,
+      "hour": 12,
+      "orders": 958
+    },
+    {
+      "dow": 1,
+      "hour": 13,
+      "orders": 1012
+    },
+    {
+      "dow": 1,
+      "hour": 14,
+      "orders": 1080
+    },
+    {
+      "dow": 1,
+      "hour": 15,
+      "orders": 1059
+    },
+    {
+      "dow": 1,
+      "hour": 16,
+      "orders": 1071
+    },
+    {
+      "dow": 1,
+      "hour": 17,
+      "orders": 972
+    },
+    {
+      "dow": 1,
+      "hour": 18,
+      "orders": 913
+    },
+    {
+      "dow": 1,
+      "hour": 19,
+      "orders": 933
+    },
+    {
+      "dow": 1,
+      "hour": 20,
+      "orders": 1016
+    },
+    {
+      "dow": 1,
+      "hour": 21,
+      "orders": 1102
+    },
+    {
+      "dow": 1,
+      "hour": 22,
+      "orders": 978
+    },
+    {
+      "dow": 1,
+      "hour": 23,
+      "orders": 708
+    },
+    {
+      "dow": 2,
+      "hour": 0,
+      "orders": 304
+    },
+    {
+      "dow": 2,
+      "hour": 1,
+      "orders": 157
+    },
+    {
+      "dow": 2,
+      "hour": 2,
+      "orders": 80
+    },
+    {
+      "dow": 2,
+      "hour": 3,
+      "orders": 28
+    },
+    {
+      "dow": 2,
+      "hour": 4,
+      "orders": 28
+    },
+    {
+      "dow": 2,
+      "hour": 5,
+      "orders": 24
+    },
+    {
+      "dow": 2,
+      "hour": 6,
+      "orders": 71
+    },
+    {
+      "dow": 2,
+      "hour": 7,
+      "orders": 219
+    },
+    {
+      "dow": 2,
+      "hour": 8,
+      "orders": 515
+    },
+    {
+      "dow": 2,
+      "hour": 9,
+      "orders": 850
+    },
+    {
+      "dow": 2,
+      "hour": 10,
+      "orders": 948
+    },
+    {
+      "dow": 2,
+      "hour": 11,
+      "orders": 1039
+    },
+    {
+      "dow": 2,
+      "hour": 12,
+      "orders": 887
+    },
+    {
+      "dow": 2,
+      "hour": 13,
+      "orders": 1026
+    },
+    {
+      "dow": 2,
+      "hour": 14,
+      "orders": 1102
+    },
+    {
+      "dow": 2,
+      "hour": 15,
+      "orders": 1019
+    },
+    {
+      "dow": 2,
+      "hour": 16,
+      "orders": 1068
+    },
+    {
+      "dow": 2,
+      "hour": 17,
+      "orders": 954
+    },
+    {
+      "dow": 2,
+      "hour": 18,
+      "orders": 865
+    },
+    {
+      "dow": 2,
+      "hour": 19,
+      "orders": 905
+    },
+    {
+      "dow": 2,
+      "hour": 20,
+      "orders": 969
+    },
+    {
+      "dow": 2,
+      "hour": 21,
+      "orders": 1013
+    },
+    {
+      "dow": 2,
+      "hour": 22,
+      "orders": 951
+    },
+    {
+      "dow": 2,
+      "hour": 23,
+      "orders": 680
+    },
+    {
+      "dow": 3,
+      "hour": 0,
+      "orders": 391
+    },
+    {
+      "dow": 3,
+      "hour": 1,
+      "orders": 174
+    },
+    {
+      "dow": 3,
+      "hour": 2,
+      "orders": 81
+    },
+    {
+      "dow": 3,
+      "hour": 3,
+      "orders": 31
+    },
+    {
+      "dow": 3,
+      "hour": 4,
+      "orders": 33
+    },
+    {
+      "dow": 3,
+      "hour": 5,
+      "orders": 26
+    },
+    {
+      "dow": 3,
+      "hour": 6,
+      "orders": 93
+    },
+    {
+      "dow": 3,
+      "hour": 7,
+      "orders": 209
+    },
+    {
+      "dow": 3,
+      "hour": 8,
+      "orders": 504
+    },
+    {
+      "dow": 3,
+      "hour": 9,
+      "orders": 815
+    },
+    {
+      "dow": 3,
+      "hour": 10,
+      "orders": 1029
+    },
+    {
+      "dow": 3,
+      "hour": 11,
+      "orders": 1041
+    },
+    {
+      "dow": 3,
+      "hour": 12,
+      "orders": 908
+    },
+    {
+      "dow": 3,
+      "hour": 13,
+      "orders": 1007
+    },
+    {
+      "dow": 3,
+      "hour": 14,
+      "orders": 1036
+    },
+    {
+      "dow": 3,
+      "hour": 15,
+      "orders": 969
+    },
+    {
+      "dow": 3,
+      "hour": 16,
+      "orders": 1023
+    },
+    {
+      "dow": 3,
+      "hour": 17,
+      "orders": 954
+    },
+    {
+      "dow": 3,
+      "hour": 18,
+      "orders": 837
+    },
+    {
+      "dow": 3,
+      "hour": 19,
+      "orders": 832
+    },
+    {
+      "dow": 3,
+      "hour": 20,
+      "orders": 888
+    },
+    {
+      "dow": 3,
+      "hour": 21,
+      "orders": 951
+    },
+    {
+      "dow": 3,
+      "hour": 22,
+      "orders": 868
+    },
+    {
+      "dow": 3,
+      "hour": 23,
+      "orders": 611
+    },
+    {
+      "dow": 4,
+      "hour": 0,
+      "orders": 352
+    },
+    {
+      "dow": 4,
+      "hour": 1,
+      "orders": 167
+    },
+    {
+      "dow": 4,
+      "hour": 2,
+      "orders": 73
+    },
+    {
+      "dow": 4,
+      "hour": 3,
+      "orders": 39
+    },
+    {
+      "dow": 4,
+      "hour": 4,
+      "orders": 31
+    },
+    {
+      "dow": 4,
+      "hour": 5,
+      "orders": 28
+    },
+    {
+      "dow": 4,
+      "hour": 6,
+      "orders": 83
+    },
+    {
+      "dow": 4,
+      "hour": 7,
+      "orders": 215
+    },
+    {
+      "dow": 4,
+      "hour": 8,
+      "orders": 495
+    },
+    {
+      "dow": 4,
+      "hour": 9,
+      "orders": 747
+    },
+    {
+      "dow": 4,
+      "hour": 10,
+      "orders": 967
+    },
+    {
+      "dow": 4,
+      "hour": 11,
+      "orders": 943
+    },
+    {
+      "dow": 4,
+      "hour": 12,
+      "orders": 958
+    },
+    {
+      "dow": 4,
+      "hour": 13,
+      "orders": 964
+    },
+    {
+      "dow": 4,
+      "hour": 14,
+      "orders": 966
+    },
+    {
+      "dow": 4,
+      "hour": 15,
+      "orders": 914
+    },
+    {
+      "dow": 4,
+      "hour": 16,
+      "orders": 1062
+    },
+    {
+      "dow": 4,
+      "hour": 17,
+      "orders": 890
+    },
+    {
+      "dow": 4,
+      "hour": 18,
+      "orders": 773
+    },
+    {
+      "dow": 4,
+      "hour": 19,
+      "orders": 812
+    },
+    {
+      "dow": 4,
+      "hour": 20,
+      "orders": 826
+    },
+    {
+      "dow": 4,
+      "hour": 21,
+      "orders": 832
+    },
+    {
+      "dow": 4,
+      "hour": 22,
+      "orders": 847
+    },
+    {
+      "dow": 4,
+      "hour": 23,
+      "orders": 540
+    },
+    {
+      "dow": 5,
+      "hour": 0,
+      "orders": 417
+    },
+    {
+      "dow": 5,
+      "hour": 1,
+      "orders": 210
+    },
+    {
+      "dow": 5,
+      "hour": 2,
+      "orders": 69
+    },
+    {
+      "dow": 5,
+      "hour": 3,
+      "orders": 48
+    },
+    {
+      "dow": 5,
+      "hour": 4,
+      "orders": 40
+    },
+    {
+      "dow": 5,
+      "hour": 5,
+      "orders": 35
+    },
+    {
+      "dow": 5,
+      "hour": 6,
+      "orders": 96
+    },
+    {
+      "dow": 5,
+      "hour": 7,
+      "orders": 204
+    },
+    {
+      "dow": 5,
+      "hour": 8,
+      "orders": 490
+    },
+    {
+      "dow": 5,
+      "hour": 9,
+      "orders": 756
+    },
+    {
+      "dow": 5,
+      "hour": 10,
+      "orders": 932
+    },
+    {
+      "dow": 5,
+      "hour": 11,
+      "orders": 980
+    },
+    {
+      "dow": 5,
+      "hour": 12,
+      "orders": 842
+    },
+    {
+      "dow": 5,
+      "hour": 13,
+      "orders": 989
+    },
+    {
+      "dow": 5,
+      "hour": 14,
+      "orders": 946
+    },
+    {
+      "dow": 5,
+      "hour": 15,
+      "orders": 967
+    },
+    {
+      "dow": 5,
+      "hour": 16,
+      "orders": 958
+    },
+    {
+      "dow": 5,
+      "hour": 17,
+      "orders": 804
+    },
+    {
+      "dow": 5,
+      "hour": 18,
+      "orders": 716
+    },
+    {
+      "dow": 5,
+      "hour": 19,
+      "orders": 769
+    },
+    {
+      "dow": 5,
+      "hour": 20,
+      "orders": 730
+    },
+    {
+      "dow": 5,
+      "hour": 21,
+      "orders": 711
+    },
+    {
+      "dow": 5,
+      "hour": 22,
+      "orders": 691
+    },
+    {
+      "dow": 5,
+      "hour": 23,
+      "orders": 505
+    },
+    {
+      "dow": 6,
+      "hour": 0,
+      "orders": 312
+    },
+    {
+      "dow": 6,
+      "hour": 1,
+      "orders": 170
+    },
+    {
+      "dow": 6,
+      "hour": 2,
+      "orders": 65
+    },
+    {
+      "dow": 6,
+      "hour": 3,
+      "orders": 42
+    },
+    {
+      "dow": 6,
+      "hour": 4,
+      "orders": 24
+    },
+    {
+      "dow": 6,
+      "hour": 5,
+      "orders": 23
+    },
+    {
+      "dow": 6,
+      "hour": 6,
+      "orders": 52
+    },
+    {
+      "dow": 6,
+      "hour": 7,
+      "orders": 104
+    },
+    {
+      "dow": 6,
+      "hour": 8,
+      "orders": 246
+    },
+    {
+      "dow": 6,
+      "hour": 9,
+      "orders": 424
+    },
+    {
+      "dow": 6,
+      "hour": 10,
+      "orders": 644
+    },
+    {
+      "dow": 6,
+      "hour": 11,
+      "orders": 698
+    },
+    {
+      "dow": 6,
+      "hour": 12,
+      "orders": 681
+    },
+    {
+      "dow": 6,
+      "hour": 13,
+      "orders": 701
+    },
+    {
+      "dow": 6,
+      "hour": 14,
+      "orders": 668
+    },
+    {
+      "dow": 6,
+      "hour": 15,
+      "orders": 712
+    },
+    {
+      "dow": 6,
+      "hour": 16,
+      "orders": 687
+    },
+    {
+      "dow": 6,
+      "hour": 17,
+      "orders": 692
+    },
+    {
+      "dow": 6,
+      "hour": 18,
+      "orders": 705
+    },
+    {
+      "dow": 6,
+      "hour": 19,
+      "orders": 746
+    },
+    {
+      "dow": 6,
+      "hour": 20,
+      "orders": 720
+    },
+    {
+      "dow": 6,
+      "hour": 21,
+      "orders": 647
+    },
+    {
+      "dow": 6,
+      "hour": 22,
+      "orders": 539
+    },
+    {
+      "dow": 6,
+      "hour": 23,
+      "orders": 424
+    },
+    {
+      "dow": 7,
+      "hour": 0,
+      "orders": 260
+    },
+    {
+      "dow": 7,
+      "hour": 1,
+      "orders": 140
+    },
+    {
+      "dow": 7,
+      "hour": 2,
+      "orders": 68
+    },
+    {
+      "dow": 7,
+      "hour": 3,
+      "orders": 43
+    },
+    {
+      "dow": 7,
+      "hour": 4,
+      "orders": 27
+    },
+    {
+      "dow": 7,
+      "hour": 5,
+      "orders": 27
+    },
+    {
+      "dow": 7,
+      "hour": 6,
+      "orders": 33
+    },
+    {
+      "dow": 7,
+      "hour": 7,
+      "orders": 105
+    },
+    {
+      "dow": 7,
+      "hour": 8,
+      "orders": 203
+    },
+    {
+      "dow": 7,
+      "hour": 9,
+      "orders": 343
+    },
+    {
+      "dow": 7,
+      "hour": 10,
+      "orders": 523
+    },
+    {
+      "dow": 7,
+      "hour": 11,
+      "orders": 713
+    },
+    {
+      "dow": 7,
+      "hour": 12,
+      "orders": 666
+    },
+    {
+      "dow": 7,
+      "hour": 13,
+      "orders": 712
+    },
+    {
+      "dow": 7,
+      "hour": 14,
+      "orders": 676
+    },
+    {
+      "dow": 7,
+      "hour": 15,
+      "orders": 706
+    },
+    {
+      "dow": 7,
+      "hour": 16,
+      "orders": 706
+    },
+    {
+      "dow": 7,
+      "hour": 17,
+      "orders": 792
+    },
+    {
+      "dow": 7,
+      "hour": 18,
+      "orders": 888
+    },
+    {
+      "dow": 7,
+      "hour": 19,
+      "orders": 892
+    },
+    {
+      "dow": 7,
+      "hour": 20,
+      "orders": 956
+    },
+    {
+      "dow": 7,
+      "hour": 21,
+      "orders": 875
+    },
+    {
+      "dow": 7,
+      "hour": 22,
+      "orders": 855
+    },
+    {
+      "dow": 7,
+      "hour": 23,
+      "orders": 599
+    }
+  ],
+  "peak_days": [
+    {
+      "day": "2017-11-24",
+      "orders": 1166,
+      "vs_daily_avg": 7.17
+    },
+    {
+      "day": "2017-11-25",
+      "orders": 499,
+      "vs_daily_avg": 3.07
+    },
+    {
+      "day": "2017-11-27",
+      "orders": 400,
+      "vs_daily_avg": 2.46
+    },
+    {
+      "day": "2017-11-26",
+      "orders": 387,
+      "vs_daily_avg": 2.38
+    },
+    {
+      "day": "2017-11-28",
+      "orders": 376,
+      "vs_daily_avg": 2.31
+    }
+  ]
+}

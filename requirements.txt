@@ -1,9 +1,16 @@
-pandas
-sqlalchemy
-psycopg2-binary
-streamlit
-plotly
-matplotlib
-seaborn
-python-dotenv
-jupyter
+# Pipeline de dados
+pandas==3.1.0
+numpy==2.5.4
+scipy==1.18.1
+SQLAlchemy==2.1.6
+psycopg2-binary==2.9.13
+python-dotenv==1.2.4
+kaggle==2.2.5
+
+# Notebook exploratório
+jupyter==1.1.1
+matplotlib==3.11.2
+
+# Qualidade
+pytest==9.2.0
+ruff==0.17.3

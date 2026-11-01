@@ -1,0 +1,81 @@
+{
+  "segments": [
+    {
+      "segment": "champions",
+      "customers": 1240,
+      "avg_recency_days": 94.8,
+      "avg_frequency": 2.157,
+      "avg_monetary": 321.79,
+      "revenue": 399018.0,
+      "customer_share": 0.0131,
+      "revenue_share": 0.0254
+    },
+    {
+      "segment": "loyal",
+      "customers": 1647,
+      "avg_recency_days": 327.3,
+      "avg_frequency": 2.081,
+      "avg_monetary": 298.24,
+      "revenue": 491197.21,
+      "customer_share": 0.0173,
+      "revenue_share": 0.0312
+    },
+    {
+      "segment": "new_high_value",
+      "customers": 14645,
+      "avg_recency_days": 97.7,
+      "avg_frequency": 1.0,
+      "avg_monetary": 303.25,
+      "revenue": 4441074.62,
+      "customer_share": 0.1542,
+      "revenue_share": 0.2822
+    },
+    {
+      "segment": "new",
+      "customers": 22108,
+      "avg_recency_days": 95.7,
+      "avg_frequency": 1.0,
+      "avg_monetary": 73.08,
+      "revenue": 1615588.29,
+      "customer_share": 0.2328,
+      "revenue_share": 0.1027
+    },
+    {
+      "segment": "at_risk_high_value",
+      "customers": 14143,
+      "avg_recency_days": 274.3,
+      "avg_frequency": 1.0,
+      "avg_monetary": 294.7,
+      "revenue": 4168011.45,
+      "customer_share": 0.1489,
+      "revenue_share": 0.2649
+    },
+    {
+      "segment": "need_attention",
+      "customers": 22658,
+      "avg_recency_days": 274.4,
+      "avg_frequency": 1.0,
+      "avg_monetary": 72.51,
+      "revenue": 1643030.47,
+      "customer_share": 0.2385,
+      "revenue_share": 0.1044
+    },
+    {
+      "segment": "hibernating",
+      "customers": 18542,
+      "avg_recency_days": 480.4,
+      "avg_frequency": 1.0,
+      "avg_monetary": 160.59,
+      "revenue": 2977606.99,
+      "customer_share": 0.1952,
+      "revenue_share": 0.1892
+    }
+  ],
+  "repeat_rate": 0.0304,
+  "scenario": {
+    "segment": "at_risk_high_value",
+    "reactivation_rate": 0.1,
+    "customers_reactivated": 1414,
+    "potential_revenue": 416794.21
+  }
+}

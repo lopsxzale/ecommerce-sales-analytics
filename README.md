@@ -1,56 +1,120 @@
 # E-commerce Sales Analytics
 
-Análise de ponta a ponta (ETL → SQL → Python → Dashboard) sobre dados reais de um marketplace brasileiro, para responder perguntas de negócio que qualquer operação de e-commerce/varejo enfrenta.
+**O que 100 mil pedidos revelam sobre o e-commerce brasileiro.** Análise de ponta a ponta (ETL → PostgreSQL → SQL analítico → Python/estatística → site interativo) sobre dados reais do marketplace Olist, com cada achado convertido em recomendação de negócio.
 
-## Contexto
+**[Ver o site ao vivo](#)** · [English version](#) · [Notebook de exploração](notebooks/01_exploracao.ipynb)
 
-Projeto de portfólio para demonstrar o ciclo completo de um analista de dados: ingestão de dados brutos, modelagem relacional em PostgreSQL, consultas SQL analíticas (CTEs, window functions), análise exploratória em Python/pandas e um dashboard publicado com os insights.
+![Hero do site](docs/img/hero.jpg)
 
-## Perguntas de negócio
+## Principais achados
 
-1. Atraso na entrega afeta a nota dada pelo cliente no review? Em quanto?
-2. Quais categorias de produto e regiões (estado) geram mais receita e qual o ticket médio de cada uma?
-3. Como está a sazonalidade das vendas ao longo do ano (meses/dias de maior volume)?
-4. Segmentação de clientes por RFM (Recência, Frequência, Valor monetário) — quais grupos merecem ação de retenção?
-5. Tempo médio de entrega por estado/região e seu impacto na satisfação.
+| # | Pergunta de negócio | Resposta (dados reais) | Recomendação |
+|---|---|---|---|
+| 1 | O atraso na entrega afeta a nota do review? | Sim, e muito: nota média **4,29 no prazo vs. 2,27 com atraso** (−2,02 estrelas, IC 95%: 1,98–2,06; Mann-Whitney p < 0,001). Avaliações negativas sobem de 9% para 62%. | Prometer prazos realistas. Zerar atrasos elevaria a nota média de 4,16 para 4,29. |
+| 2 | Quais estados e categorias geram mais receita? | SP, RJ e MG somam **63%** da receita (SP sozinho, 37%). As 10 maiores de 74 categorias respondem por 62%. | Relógios & presentes tem o maior ticket do top 10 (R$ 231,67): foco em campanhas sazonais. |
+| 3 | Como é a sazonalidade? | Crescimento contínuo em 2017 e platô em 2018. Na **Black Friday (24/11/2017) o volume foi 7,2× a média diária**. Picos em dias úteis, das 10h às 22h. | Playbook de capacidade para novembro e mídia concentrada em dias úteis. |
+| 4 | Quais grupos de clientes (RFM) merecem retenção? | **Só 3% dos clientes compram de novo.** O segmento "alto valor em risco" tem 14 mil clientes e 26% da receita. | Win-back: reativar 10% desse grupo ≈ R$ 417 mil. |
+| 5 | Tempo de entrega por estado afeta a satisfação? | A nota acompanha a **taxa de atraso (r = −0,88)** muito mais que o **tempo de entrega (r = −0,45)**. AM e AP têm as entregas mais lentas e notas altas porque quase não atrasam. | Parceiros logísticos regionais onde o atraso passa de 15% (AL, MA, SE). |
 
-## Fonte de dados
+<p>
+  <img src="docs/img/atrasos.jpg" alt="Gráfico de nota média por atraso na entrega" width="49%" />
+  <img src="docs/img/rfm.jpg" alt="Treemap dos segmentos RFM" width="49%" />
+</p>
 
-[Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle) — ~100k pedidos reais e anonimizados de um marketplace brasileiro (2016–2018), com tabelas de pedidos, itens, pagamentos, reviews, clientes, vendedores e geolocalização.
+## O que este projeto demonstra
+
+- **SQL analítico de verdade:** CTEs, window functions (`ROW_NUMBER`, `LAG`, `RANK`, médias móveis, somas acumuladas para Pareto) e `PERCENTILE_CONT`. Uma query por pergunta em [`sql/analysis/`](sql/analysis/). Cada gráfico do site tem um botão **"Ver SQL"** que mostra a query que o gerou.
+- **Modelagem relacional:** 9 tabelas com PK/FK, tipos corretos e índices ([`sql/schema.sql`](sql/schema.sql)), carregadas via `COPY` (1,55 milhão de linhas em segundos).
+- **Rigor estatístico:** teste de Mann-Whitney (notas são ordinais, então não cabe teste t), intervalo de confiança, tamanho de efeito e correlações ([`src/stats.py`](src/stats.py)).
+- **Segmentação RFM adaptada aos dados:** com 97% de compradores únicos, quintis de frequência não fazem sentido. A frequência virou regra explícita, e isso foi documentado ([`src/rfm.py`](src/rfm.py)).
+- **Qualidade de dados:** checagens automatizadas de pedidos sem itens, reviews duplicados, categorias sem tradução etc., cada uma com o tratamento aplicado ([`src/quality.py`](src/quality.py)).
+- **Engenharia:** pipeline reproduzível em um comando, testes com pytest, lint com ruff e CI no GitHub Actions.
+- **Comunicação:** site bilíngue (PT/EN), responsivo, com tema claro/escuro, gráficos acessíveis (paleta validada para daltonismo, visão em tabela, navegação por teclado) e Lighthouse 100 no desktop.
+
+## Arquitetura
+
+```
+Kaggle API ──► src/download.py ──► data/raw/*.csv
+                                        │
+                                        ▼
+              src/load.py (pandas + COPY) ──► PostgreSQL 16 (Docker)
+                                                   │
+                     sql/analysis/*.sql ◄──────────┤
+                     src/stats.py, src/rfm.py ◄────┤
+                     src/quality.py ◄──────────────┘
+                                        │
+                                        ▼
+              src/export.py ──► web/src/data/*.json (versionados)
+                                        │
+                                        ▼
+              web/ (Next.js, export estático) ──► Vercel
+```
+
+O site consome JSONs pré-agregados: não há banco em produção, o deploy é gratuito e a página carrega instantaneamente.
 
 ## Stack
 
-- **Banco de dados:** PostgreSQL
-- **ETL/Análise:** Python (pandas, SQLAlchemy, psycopg2)
-- **Visualização:** Streamlit + Plotly
-- **Notebook exploratório:** Jupyter
-
-## Roadmap
-
-- [ ] Baixar o dataset do Kaggle e colocar os CSVs em `data/raw/`
-- [ ] Criar o schema relacional em `sql/schema.sql` e carregar os dados (`src/load.py`)
-- [ ] Escrever as queries analíticas em `sql/analysis/` (uma por pergunta de negócio)
-- [ ] Notebook de EDA em `notebooks/01_exploracao.ipynb`
-- [ ] Segmentação RFM em `src/rfm.py`
-- [ ] Dashboard Streamlit em `dashboard/app.py` com os principais insights
-- [ ] Publicar o dashboard (Streamlit Community Cloud) e colar o link abaixo
-- [ ] Escrever a seção "Insights e Recomendações" neste README com os achados finais
+| Camada | Tecnologias |
+|---|---|
+| Dados | PostgreSQL 16 (Docker), SQL |
+| Pipeline e análise | Python, pandas, SQLAlchemy, SciPy, Jupyter |
+| Qualidade | pytest, ruff, GitHub Actions |
+| Site | Next.js 16 (export estático), TypeScript, Tailwind CSS, D3 (escalas/formas), Motion, Lenis, Shiki |
 
 ## Como rodar localmente
 
+Pré-requisitos: Docker, Python 3.11+, Node 20+ e um token da [Kaggle API](https://www.kaggle.com/settings) salvo em `~/.kaggle/kaggle.json`.
+
 ```bash
+# 1. Banco
+cp .env.example .env
+docker compose up -d            # PostgreSQL na porta 5433
+
+# 2. Pipeline completo: download, carga, análises e export dos JSONs do site
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate           # Linux/macOS: source venv/bin/activate
 pip install -r requirements.txt
-# configurar DATABASE_URL em um arquivo .env (ver .env.example, a criar)
-python src/load.py
-streamlit run dashboard/app.py
+python -m src.pipeline
+
+# 3. Testes
+pytest
+
+# 4. Site
+cd web
+npm install
+npm run dev                     # http://localhost:3000/pt/
 ```
 
-## Dashboard ao vivo
+`python -m src.pipeline --skip-load` reexporta os dados sem recarregar o banco.
 
-_(link a publicar após a implementação)_
+## Estrutura
 
-## Insights e recomendações
+```
+├── sql/
+│   ├── schema.sql              # modelo relacional
+│   ├── analysis/               # uma query por pergunta de negócio
+│   └── support/                # queries auxiliares (teste estatístico)
+├── src/
+│   ├── pipeline.py             # orquestra todas as etapas
+│   ├── download.py · load.py   # ingestão
+│   ├── quality.py              # checagens de qualidade
+│   ├── stats.py · rfm.py       # estatística e segmentação
+│   └── export.py               # gera os JSONs do site
+├── tests/                      # pytest
+├── notebooks/01_exploracao.ipynb
+└── web/                        # site Next.js
+```
 
-_(a preencher depois da análise)_
+## Limitações e próximos passos
+
+- Dados de 2016–2018 de um único marketplace; a cobertura é parcial nas pontas da série (por isso o recorte de jan/2017 a ago/2018 na sazonalidade).
+- Os cenários de impacto (ex.: reativação de 10%) são ilustrativos, baseados no gasto histórico, e não previsões.
+- Próximos passos: previsão de demanda para a Black Friday, análise de texto dos comentários negativos e teste A/B para validar o efeito de prazos mais conservadores.
+
+## Fonte de dados
+
+[Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle, CC BY-NC-SA 4.0): cerca de 100 mil pedidos reais e anonimizados.
+
+---
+
+Feito por **Alexandre Lopes**.

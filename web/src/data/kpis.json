@@ -1,0 +1,13 @@
+{
+  "orders": 98199,
+  "revenue": 15735527.03,
+  "avg_ticket": 160.24,
+  "customers": 94990,
+  "sellers": 3095,
+  "products": 32951,
+  "avg_score": 4.086,
+  "late_rate": 0.0677,
+  "period_start": "2016-09-04",
+  "period_end": "2018-09-03",
+  "repeat_rate": 0.0304
+}

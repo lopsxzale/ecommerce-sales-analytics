@@ -1,0 +1,64 @@
+{
+  "buckets": [
+    {
+      "bucket": 0,
+      "bucket_id": "on_time",
+      "orders": 89443,
+      "avg_score": 4.29,
+      "negative_rate": 0.0927,
+      "share_of_orders": 0.9334
+    },
+    {
+      "bucket": 1,
+      "bucket_id": "late_1_3",
+      "orders": 1852,
+      "avg_score": 3.291,
+      "negative_rate": 0.3213,
+      "share_of_orders": 0.0193
+    },
+    {
+      "bucket": 2,
+      "bucket_id": "late_4_7",
+      "orders": 1748,
+      "avg_score": 2.103,
+      "negative_rate": 0.6768,
+      "share_of_orders": 0.0182
+    },
+    {
+      "bucket": 3,
+      "bucket_id": "late_8_14",
+      "orders": 1446,
+      "avg_score": 1.671,
+      "negative_rate": 0.8015,
+      "share_of_orders": 0.0151
+    },
+    {
+      "bucket": 4,
+      "bucket_id": "late_15_plus",
+      "orders": 1335,
+      "avg_score": 1.724,
+      "negative_rate": 0.7835,
+      "share_of_orders": 0.0139
+    }
+  ],
+  "stats": {
+    "n_on_time": 89443,
+    "n_late": 6381,
+    "late_share": 0.0666,
+    "mean_on_time": 4.29,
+    "mean_late": 2.27,
+    "mean_diff": 2.02,
+    "mean_diff_ci95": [
+      1.981,
+      2.059
+    ],
+    "negative_rate_on_time": 0.0927,
+    "negative_rate_late": 0.6242,
+    "mann_whitney_u": 467430237.0,
+    "p_value": 0.0,
+    "rank_biserial": 0.638,
+    "spearman_rho": -0.176,
+    "avg_score_now": 4.156,
+    "avg_score_if_no_delays": 4.29
+  }
+}

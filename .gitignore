@@ -5,3 +5,5 @@ __pycache__/
 data/raw/*.csv
 data/processed/*.csv
 .ipynb_checkpoints/
+data/processed/*.json
+data/raw/*.zip

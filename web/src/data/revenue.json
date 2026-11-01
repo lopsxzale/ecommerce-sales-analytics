@@ -1,0 +1,962 @@
+{
+  "states": [
+    {
+      "state": "SP",
+      "orders": 41125,
+      "revenue": 5878132.06,
+      "avg_ticket": 142.93,
+      "revenue_share": 0.3736,
+      "revenue_rank": 1
+    },
+    {
+      "state": "RJ",
+      "orders": 12697,
+      "revenue": 2115667.56,
+      "avg_ticket": 166.63,
+      "revenue_share": 0.1345,
+      "revenue_rank": 2
+    },
+    {
+      "state": "MG",
+      "orders": 11496,
+      "revenue": 1843074.43,
+      "avg_ticket": 160.32,
+      "revenue_share": 0.1171,
+      "revenue_rank": 3
+    },
+    {
+      "state": "RS",
+      "orders": 5415,
+      "revenue": 877290.59,
+      "avg_ticket": 162.01,
+      "revenue_share": 0.0558,
+      "revenue_rank": 4
+    },
+    {
+      "state": "PR",
+      "orders": 4982,
+      "revenue": 794196.61,
+      "avg_ticket": 159.41,
+      "revenue_share": 0.0505,
+      "revenue_rank": 5
+    },
+    {
+      "state": "SC",
+      "orders": 3599,
+      "revenue": 608023.7,
+      "avg_ticket": 168.94,
+      "revenue_share": 0.0386,
+      "revenue_rank": 6
+    },
+    {
+      "state": "BA",
+      "orders": 3344,
+      "revenue": 606908.66,
+      "avg_ticket": 181.49,
+      "revenue_share": 0.0386,
+      "revenue_rank": 7
+    },
+    {
+      "state": "DF",
+      "orders": 2120,
+      "revenue": 351327.21,
+      "avg_ticket": 165.72,
+      "revenue_share": 0.0223,
+      "revenue_rank": 8
+    },
+    {
+      "state": "GO",
+      "orders": 1998,
+      "revenue": 340544.37,
+      "avg_ticket": 170.44,
+      "revenue_share": 0.0216,
+      "revenue_rank": 9
+    },
+    {
+      "state": "ES",
+      "orders": 2018,
+      "revenue": 323081.03,
+      "avg_ticket": 160.1,
+      "revenue_share": 0.0205,
+      "revenue_rank": 10
+    },
+    {
+      "state": "PE",
+      "orders": 1643,
+      "revenue": 321018.34,
+      "avg_ticket": 195.39,
+      "revenue_share": 0.0204,
+      "revenue_rank": 11
+    },
+    {
+      "state": "CE",
+      "orders": 1323,
+      "revenue": 274522.61,
+      "avg_ticket": 207.5,
+      "revenue_share": 0.0174,
+      "revenue_rank": 12
+    },
+    {
+      "state": "PA",
+      "orders": 969,
+      "revenue": 217480.54,
+      "avg_ticket": 224.44,
+      "revenue_share": 0.0138,
+      "revenue_rank": 13
+    },
+    {
+      "state": "MT",
+      "orders": 902,
+      "revenue": 186005.11,
+      "avg_ticket": 206.21,
+      "revenue_share": 0.0118,
+      "revenue_rank": 14
+    },
+    {
+      "state": "MA",
+      "orders": 736,
+      "revenue": 150687.96,
+      "avg_ticket": 204.74,
+      "revenue_share": 0.0096,
+      "revenue_rank": 15
+    },
+    {
+      "state": "PB",
+      "orders": 531,
+      "revenue": 140523.47,
+      "avg_ticket": 264.64,
+      "revenue_share": 0.0089,
+      "revenue_rank": 16
+    },
+    {
+      "state": "MS",
+      "orders": 708,
+      "revenue": 135875.69,
+      "avg_ticket": 191.91,
+      "revenue_share": 0.0086,
+      "revenue_rank": 17
+    },
+    {
+      "state": "PI",
+      "orders": 490,
+      "revenue": 107765.47,
+      "avg_ticket": 219.93,
+      "revenue_share": 0.0068,
+      "revenue_rank": 18
+    },
+    {
+      "state": "RN",
+      "orders": 482,
+      "revenue": 101895.08,
+      "avg_ticket": 211.4,
+      "revenue_share": 0.0065,
+      "revenue_rank": 19
+    },
+    {
+      "state": "AL",
+      "orders": 411,
+      "revenue": 96229.4,
+      "avg_ticket": 234.13,
+      "revenue_share": 0.0061,
+      "revenue_rank": 20
+    },
+    {
+      "state": "SE",
+      "orders": 345,
+      "revenue": 73032.32,
+      "avg_ticket": 211.69,
+      "revenue_share": 0.0046,
+      "revenue_rank": 21
+    },
+    {
+      "state": "TO",
+      "orders": 278,
+      "revenue": 61103.85,
+      "avg_ticket": 219.8,
+      "revenue_share": 0.0039,
+      "revenue_rank": 22
+    },
+    {
+      "state": "RO",
+      "orders": 246,
+      "revenue": 57423.77,
+      "avg_ticket": 233.43,
+      "revenue_share": 0.0036,
+      "revenue_rank": 23
+    },
+    {
+      "state": "AM",
+      "orders": 147,
+      "revenue": 27835.73,
+      "avg_ticket": 189.36,
+      "revenue_share": 0.0018,
+      "revenue_rank": 24
+    },
+    {
+      "state": "AC",
+      "orders": 81,
+      "revenue": 19669.7,
+      "avg_ticket": 242.84,
+      "revenue_share": 0.0013,
+      "revenue_rank": 25
+    },
+    {
+      "state": "AP",
+      "orders": 68,
+      "revenue": 16262.8,
+      "avg_ticket": 239.16,
+      "revenue_share": 0.001,
+      "revenue_rank": 26
+    },
+    {
+      "state": "RR",
+      "orders": 45,
+      "revenue": 9948.97,
+      "avg_ticket": 221.09,
+      "revenue_share": 0.0006,
+      "revenue_rank": 27
+    }
+  ],
+  "categories": [
+    {
+      "category_pt": "beleza_saude",
+      "category_en": "health_beauty",
+      "orders": 8800,
+      "items": 9634,
+      "revenue": 1437665.78,
+      "avg_ticket": 163.37,
+      "revenue_share": 0.0914,
+      "cumulative_share": 0.0914
+    },
+    {
+      "category_pt": "relogios_presentes",
+      "category_en": "watches_gifts",
+      "orders": 5604,
+      "items": 5970,
+      "revenue": 1298292.47,
+      "avg_ticket": 231.67,
+      "revenue_share": 0.0825,
+      "cumulative_share": 0.1739
+    },
+    {
+      "category_pt": "cama_mesa_banho",
+      "category_en": "bed_bath_table",
+      "orders": 9399,
+      "items": 11097,
+      "revenue": 1240386.13,
+      "avg_ticket": 131.97,
+      "revenue_share": 0.0788,
+      "cumulative_share": 0.2527
+    },
+    {
+      "category_pt": "esporte_lazer",
+      "category_en": "sports_leisure",
+      "orders": 7673,
+      "items": 8590,
+      "revenue": 1147244.63,
+      "avg_ticket": 149.52,
+      "revenue_share": 0.0729,
+      "cumulative_share": 0.3256
+    },
+    {
+      "category_pt": "informatica_acessorios",
+      "category_en": "computers_accessories",
+      "orders": 6654,
+      "items": 7781,
+      "revenue": 1050941.58,
+      "avg_ticket": 157.94,
+      "revenue_share": 0.0668,
+      "cumulative_share": 0.3924
+    },
+    {
+      "category_pt": "moveis_decoracao",
+      "category_en": "furniture_decor",
+      "orders": 6425,
+      "items": 8298,
+      "revenue": 899626.04,
+      "avg_ticket": 140.02,
+      "revenue_share": 0.0572,
+      "cumulative_share": 0.4496
+    },
+    {
+      "category_pt": "utilidades_domesticas",
+      "category_en": "housewares",
+      "orders": 5847,
+      "items": 6915,
+      "revenue": 772035.14,
+      "avg_ticket": 132.04,
+      "revenue_share": 0.0491,
+      "cumulative_share": 0.4986
+    },
+    {
+      "category_pt": "cool_stuff",
+      "category_en": "cool_stuff",
+      "orders": 3616,
+      "items": 3779,
+      "revenue": 704086.24,
+      "avg_ticket": 194.71,
+      "revenue_share": 0.0447,
+      "cumulative_share": 0.5434
+    },
+    {
+      "category_pt": "automotivo",
+      "category_en": "auto",
+      "orders": 3872,
+      "items": 4204,
+      "revenue": 678606.64,
+      "avg_ticket": 175.26,
+      "revenue_share": 0.0431,
+      "cumulative_share": 0.5865
+    },
+    {
+      "category_pt": "ferramentas_jardim",
+      "category_en": "garden_tools",
+      "orders": 3505,
+      "items": 4328,
+      "revenue": 579525.2,
+      "avg_ticket": 165.34,
+      "revenue_share": 0.0368,
+      "cumulative_share": 0.6233
+    },
+    {
+      "category_pt": "brinquedos",
+      "category_en": "toys",
+      "orders": 3855,
+      "items": 4083,
+      "revenue": 556783.29,
+      "avg_ticket": 144.43,
+      "revenue_share": 0.0354,
+      "cumulative_share": 0.6587
+    },
+    {
+      "category_pt": "bebes",
+      "category_en": "baby",
+      "orders": 2868,
+      "items": 3043,
+      "revenue": 478320.0,
+      "avg_ticket": 166.78,
+      "revenue_share": 0.0304,
+      "cumulative_share": 0.6891
+    },
+    {
+      "category_pt": "perfumaria",
+      "category_en": "perfumery",
+      "orders": 3146,
+      "items": 3402,
+      "revenue": 450580.47,
+      "avg_ticket": 143.22,
+      "revenue_share": 0.0286,
+      "cumulative_share": 0.7177
+    },
+    {
+      "category_pt": "telefonia",
+      "category_en": "telephony",
+      "orders": 4183,
+      "items": 4527,
+      "revenue": 393306.02,
+      "avg_ticket": 94.02,
+      "revenue_share": 0.025,
+      "cumulative_share": 0.7427
+    },
+    {
+      "category_pt": "moveis_escritorio",
+      "category_en": "office_furniture",
+      "orders": 1272,
+      "items": 1690,
+      "revenue": 342073.02,
+      "avg_ticket": 268.93,
+      "revenue_share": 0.0217,
+      "cumulative_share": 0.7645
+    },
+    {
+      "category_pt": "papelaria",
+      "category_en": "stationery",
+      "orders": 2299,
+      "items": 2505,
+      "revenue": 276152.18,
+      "avg_ticket": 120.12,
+      "revenue_share": 0.0175,
+      "cumulative_share": 0.782
+    },
+    {
+      "category_pt": "pet_shop",
+      "category_en": "pet_shop",
+      "orders": 1706,
+      "items": 1942,
+      "revenue": 253176.96,
+      "avg_ticket": 148.4,
+      "revenue_share": 0.0161,
+      "cumulative_share": 0.7981
+    },
+    {
+      "category_pt": "pcs",
+      "category_en": "computers",
+      "orders": 181,
+      "items": 203,
+      "revenue": 232799.43,
+      "avg_ticket": 1286.18,
+      "revenue_share": 0.0148,
+      "cumulative_share": 0.8129
+    },
+    {
+      "category_pt": "sem_categoria",
+      "category_en": "uncategorized",
+      "orders": 1437,
+      "items": 1589,
+      "revenue": 206524.29,
+      "avg_ticket": 143.72,
+      "revenue_share": 0.0131,
+      "cumulative_share": 0.826
+    },
+    {
+      "category_pt": "instrumentos_musicais",
+      "category_en": "musical_instruments",
+      "orders": 620,
+      "items": 669,
+      "revenue": 206021.32,
+      "avg_ticket": 332.29,
+      "revenue_share": 0.0131,
+      "cumulative_share": 0.8391
+    },
+    {
+      "category_pt": "eletroportateis",
+      "category_en": "small_appliances",
+      "orders": 622,
+      "items": 671,
+      "revenue": 203731.5,
+      "avg_ticket": 327.54,
+      "revenue_share": 0.0129,
+      "cumulative_share": 0.8521
+    },
+    {
+      "category_pt": "eletronicos",
+      "category_en": "electronics",
+      "orders": 2543,
+      "items": 2755,
+      "revenue": 203416.77,
+      "avg_ticket": 79.99,
+      "revenue_share": 0.0129,
+      "cumulative_share": 0.865
+    },
+    {
+      "category_pt": "fashion_bolsas_e_acessorios",
+      "category_en": "fashion_bags_accessories",
+      "orders": 1858,
+      "items": 2025,
+      "revenue": 182934.76,
+      "avg_ticket": 98.46,
+      "revenue_share": 0.0116,
+      "cumulative_share": 0.8766
+    },
+    {
+      "category_pt": "consoles_games",
+      "category_en": "consoles_games",
+      "orders": 1054,
+      "items": 1127,
+      "revenue": 174639.6,
+      "avg_ticket": 165.69,
+      "revenue_share": 0.0111,
+      "cumulative_share": 0.8877
+    },
+    {
+      "category_pt": "malas_acessorios",
+      "category_en": "luggage_accessories",
+      "orders": 1030,
+      "items": 1088,
+      "revenue": 170504.09,
+      "avg_ticket": 165.54,
+      "revenue_share": 0.0108,
+      "cumulative_share": 0.8986
+    },
+    {
+      "category_pt": "construcao_ferramentas_construcao",
+      "category_en": "construction_tools_construction",
+      "orders": 746,
+      "items": 927,
+      "revenue": 165179.69,
+      "avg_ticket": 221.42,
+      "revenue_share": 0.0105,
+      "cumulative_share": 0.9091
+    },
+    {
+      "category_pt": "eletrodomesticos_2",
+      "category_en": "home_appliances_2",
+      "orders": 231,
+      "items": 235,
+      "revenue": 121055.52,
+      "avg_ticket": 524.05,
+      "revenue_share": 0.0077,
+      "cumulative_share": 0.9168
+    },
+    {
+      "category_pt": "casa_construcao",
+      "category_en": "home_construction",
+      "orders": 489,
+      "items": 603,
+      "revenue": 96833.62,
+      "avg_ticket": 198.02,
+      "revenue_share": 0.0062,
+      "cumulative_share": 0.9229
+    },
+    {
+      "category_pt": "eletrodomesticos",
+      "category_en": "home_appliances",
+      "orders": 762,
+      "items": 769,
+      "revenue": 94771.3,
+      "avg_ticket": 124.37,
+      "revenue_share": 0.006,
+      "cumulative_share": 0.9289
+    },
+    {
+      "category_pt": "moveis_sala",
+      "category_en": "furniture_living_room",
+      "orders": 420,
+      "items": 501,
+      "revenue": 86557.3,
+      "avg_ticket": 206.09,
+      "revenue_share": 0.0055,
+      "cumulative_share": 0.9344
+    },
+    {
+      "category_pt": "agro_industria_e_comercio",
+      "category_en": "agro_industry_and_commerce",
+      "orders": 182,
+      "items": 212,
+      "revenue": 78374.07,
+      "avg_ticket": 430.63,
+      "revenue_share": 0.005,
+      "cumulative_share": 0.9394
+    },
+    {
+      "category_pt": "casa_conforto",
+      "category_en": "home_confort",
+      "orders": 397,
+      "items": 434,
+      "revenue": 67073.27,
+      "avg_ticket": 168.95,
+      "revenue_share": 0.0043,
+      "cumulative_share": 0.9437
+    },
+    {
+      "category_pt": "telefonia_fixa",
+      "category_en": "fixed_telephony",
+      "orders": 214,
+      "items": 261,
+      "revenue": 62414.05,
+      "avg_ticket": 291.65,
+      "revenue_share": 0.004,
+      "cumulative_share": 0.9476
+    },
+    {
+      "category_pt": "climatizacao",
+      "category_en": "air_conditioning",
+      "orders": 251,
+      "items": 295,
+      "revenue": 61436.57,
+      "avg_ticket": 244.77,
+      "revenue_share": 0.0039,
+      "cumulative_share": 0.9515
+    },
+    {
+      "category_pt": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "category_en": "kitchen_dining_laundry_garden_furniture",
+      "orders": 246,
+      "items": 279,
+      "revenue": 57905.76,
+      "avg_ticket": 235.39,
+      "revenue_share": 0.0037,
+      "cumulative_share": 0.9552
+    },
+    {
+      "category_pt": "audio",
+      "category_en": "audio",
+      "orders": 349,
+      "items": 363,
+      "revenue": 56371.26,
+      "avg_ticket": 161.52,
+      "revenue_share": 0.0036,
+      "cumulative_share": 0.9588
+    },
+    {
+      "category_pt": "livros_interesse_geral",
+      "category_en": "books_general_interest",
+      "orders": 505,
+      "items": 546,
+      "revenue": 54658.69,
+      "avg_ticket": 108.24,
+      "revenue_share": 0.0035,
+      "cumulative_share": 0.9623
+    },
+    {
+      "category_pt": "portateis_casa_forno_e_cafe",
+      "category_en": "small_appliances_home_oven_and_coffee",
+      "orders": 75,
+      "items": 76,
+      "revenue": 50193.57,
+      "avg_ticket": 669.25,
+      "revenue_share": 0.0032,
+      "cumulative_share": 0.9655
+    },
+    {
+      "category_pt": "industria_comercio_e_negocios",
+      "category_en": "industry_commerce_and_business",
+      "orders": 235,
+      "items": 268,
+      "revenue": 47554.29,
+      "avg_ticket": 202.36,
+      "revenue_share": 0.003,
+      "cumulative_share": 0.9685
+    },
+    {
+      "category_pt": "construcao_ferramentas_iluminacao",
+      "category_en": "construction_tools_lights",
+      "orders": 243,
+      "items": 302,
+      "revenue": 47511.18,
+      "avg_ticket": 195.52,
+      "revenue_share": 0.003,
+      "cumulative_share": 0.9715
+    },
+    {
+      "category_pt": "construcao_ferramentas_seguranca",
+      "category_en": "construction_tools_safety",
+      "orders": 165,
+      "items": 189,
+      "revenue": 43420.59,
+      "avg_ticket": 263.16,
+      "revenue_share": 0.0028,
+      "cumulative_share": 0.9743
+    },
+    {
+      "category_pt": "alimentos",
+      "category_en": "food",
+      "orders": 449,
+      "items": 509,
+      "revenue": 36496.78,
+      "avg_ticket": 81.28,
+      "revenue_share": 0.0023,
+      "cumulative_share": 0.9766
+    },
+    {
+      "category_pt": "market_place",
+      "category_en": "market_place",
+      "orders": 279,
+      "items": 310,
+      "revenue": 33694.53,
+      "avg_ticket": 120.77,
+      "revenue_share": 0.0021,
+      "cumulative_share": 0.9787
+    },
+    {
+      "category_pt": "construcao_ferramentas_jardim",
+      "category_en": "costruction_tools_garden",
+      "orders": 192,
+      "items": 234,
+      "revenue": 30781.89,
+      "avg_ticket": 160.32,
+      "revenue_share": 0.002,
+      "cumulative_share": 0.9807
+    },
+    {
+      "category_pt": "fashion_calcados",
+      "category_en": "fashion_shoes",
+      "orders": 238,
+      "items": 260,
+      "revenue": 28248.41,
+      "avg_ticket": 118.69,
+      "revenue_share": 0.0018,
+      "cumulative_share": 0.9825
+    },
+    {
+      "category_pt": "artes",
+      "category_en": "art",
+      "orders": 201,
+      "items": 208,
+      "revenue": 28196.21,
+      "avg_ticket": 140.28,
+      "revenue_share": 0.0018,
+      "cumulative_share": 0.9843
+    },
+    {
+      "category_pt": "bebidas",
+      "category_en": "drinks",
+      "orders": 296,
+      "items": 378,
+      "revenue": 28100.75,
+      "avg_ticket": 94.93,
+      "revenue_share": 0.0018,
+      "cumulative_share": 0.9861
+    },
+    {
+      "category_pt": "sinalizacao_e_seguranca",
+      "category_en": "signaling_and_security",
+      "orders": 140,
+      "items": 199,
+      "revenue": 28017.05,
+      "avg_ticket": 200.12,
+      "revenue_share": 0.0018,
+      "cumulative_share": 0.9878
+    },
+    {
+      "category_pt": "moveis_quarto",
+      "category_en": "furniture_bedroom",
+      "orders": 95,
+      "items": 109,
+      "revenue": 24661.01,
+      "avg_ticket": 259.59,
+      "revenue_share": 0.0016,
+      "cumulative_share": 0.9894
+    },
+    {
+      "category_pt": "livros_tecnicos",
+      "category_en": "books_technical",
+      "orders": 260,
+      "items": 267,
+      "revenue": 23379.12,
+      "avg_ticket": 89.92,
+      "revenue_share": 0.0015,
+      "cumulative_share": 0.9909
+    },
+    {
+      "category_pt": "alimentos_bebidas",
+      "category_en": "food_drink",
+      "orders": 225,
+      "items": 276,
+      "revenue": 19608.1,
+      "avg_ticket": 87.15,
+      "revenue_share": 0.0012,
+      "cumulative_share": 0.9921
+    },
+    {
+      "category_pt": "construcao_ferramentas_ferramentas",
+      "category_en": "costruction_tools_tools",
+      "orders": 97,
+      "items": 103,
+      "revenue": 17934.17,
+      "avg_ticket": 184.89,
+      "revenue_share": 0.0011,
+      "cumulative_share": 0.9933
+    },
+    {
+      "category_pt": "fashion_roupa_masculina",
+      "category_en": "fashion_male_clothing",
+      "orders": 111,
+      "items": 131,
+      "revenue": 12893.45,
+      "avg_ticket": 116.16,
+      "revenue_share": 0.0008,
+      "cumulative_share": 0.9941
+    },
+    {
+      "category_pt": "artigos_de_natal",
+      "category_en": "christmas_supplies",
+      "orders": 127,
+      "items": 152,
+      "revenue": 12009.19,
+      "avg_ticket": 94.56,
+      "revenue_share": 0.0008,
+      "cumulative_share": 0.9949
+    },
+    {
+      "category_pt": "fashion_underwear_e_moda_praia",
+      "category_en": "fashion_underwear_beach",
+      "orders": 121,
+      "items": 131,
+      "revenue": 11457.74,
+      "avg_ticket": 94.69,
+      "revenue_share": 0.0007,
+      "cumulative_share": 0.9956
+    },
+    {
+      "category_pt": "tablets_impressao_imagem",
+      "category_en": "tablets_printing_image",
+      "orders": 79,
+      "items": 83,
+      "revenue": 8754.61,
+      "avg_ticket": 110.82,
+      "revenue_share": 0.0006,
+      "cumulative_share": 0.9961
+    },
+    {
+      "category_pt": "cine_foto",
+      "category_en": "cine_photo",
+      "orders": 65,
+      "items": 72,
+      "revenue": 8189.66,
+      "avg_ticket": 125.99,
+      "revenue_share": 0.0005,
+      "cumulative_share": 0.9967
+    },
+    {
+      "category_pt": "musica",
+      "category_en": "music",
+      "orders": 38,
+      "items": 38,
+      "revenue": 6724.86,
+      "avg_ticket": 176.97,
+      "revenue_share": 0.0004,
+      "cumulative_share": 0.9971
+    },
+    {
+      "category_pt": "moveis_colchao_e_estofado",
+      "category_en": "furniture_mattress_and_upholstery",
+      "orders": 38,
+      "items": 38,
+      "revenue": 5998.54,
+      "avg_ticket": 157.86,
+      "revenue_share": 0.0004,
+      "cumulative_share": 0.9975
+    },
+    {
+      "category_pt": "dvds_blu_ray",
+      "category_en": "dvds_blu_ray",
+      "orders": 57,
+      "items": 62,
+      "revenue": 5804.37,
+      "avg_ticket": 101.83,
+      "revenue_share": 0.0004,
+      "cumulative_share": 0.9978
+    },
+    {
+      "category_pt": "livros_importados",
+      "category_en": "books_imported",
+      "orders": 53,
+      "items": 60,
+      "revenue": 5409.7,
+      "avg_ticket": 102.07,
+      "revenue_share": 0.0003,
+      "cumulative_share": 0.9982
+    },
+    {
+      "category_pt": "artigos_de_festas",
+      "category_en": "party_supplies",
+      "orders": 39,
+      "items": 43,
+      "revenue": 5313.15,
+      "avg_ticket": 136.23,
+      "revenue_share": 0.0003,
+      "cumulative_share": 0.9985
+    },
+    {
+      "category_pt": "portateis_cozinha_e_preparadores_de_alimentos",
+      "category_en": "portateis_cozinha_e_preparadores_de_alimentos",
+      "orders": 13,
+      "items": 14,
+      "revenue": 4228.05,
+      "avg_ticket": 325.23,
+      "revenue_share": 0.0003,
+      "cumulative_share": 0.9988
+    },
+    {
+      "category_pt": "fashion_roupa_feminina",
+      "category_en": "fashio_female_clothing",
+      "orders": 39,
+      "items": 48,
+      "revenue": 3425.39,
+      "avg_ticket": 87.83,
+      "revenue_share": 0.0002,
+      "cumulative_share": 0.999
+    },
+    {
+      "category_pt": "fashion_esporte",
+      "category_en": "fashion_sport",
+      "orders": 27,
+      "items": 30,
+      "revenue": 2697.64,
+      "avg_ticket": 99.91,
+      "revenue_share": 0.0002,
+      "cumulative_share": 0.9992
+    },
+    {
+      "category_pt": "la_cuisine",
+      "category_en": "la_cuisine",
+      "orders": 13,
+      "items": 14,
+      "revenue": 2388.54,
+      "avg_ticket": 183.73,
+      "revenue_share": 0.0002,
+      "cumulative_share": 0.9993
+    },
+    {
+      "category_pt": "artes_e_artesanato",
+      "category_en": "arts_and_craftmanship",
+      "orders": 23,
+      "items": 24,
+      "revenue": 2184.14,
+      "avg_ticket": 94.96,
+      "revenue_share": 0.0001,
+      "cumulative_share": 0.9995
+    },
+    {
+      "category_pt": "fraldas_higiene",
+      "category_en": "diapers_and_hygiene",
+      "orders": 26,
+      "items": 38,
+      "revenue": 2101.25,
+      "avg_ticket": 80.82,
+      "revenue_share": 0.0001,
+      "cumulative_share": 0.9996
+    },
+    {
+      "category_pt": "flores",
+      "category_en": "flowers",
+      "orders": 29,
+      "items": 33,
+      "revenue": 1598.91,
+      "avg_ticket": 55.13,
+      "revenue_share": 0.0001,
+      "cumulative_share": 0.9997
+    },
+    {
+      "category_pt": "pc_gamer",
+      "category_en": "pc_gamer",
+      "orders": 7,
+      "items": 8,
+      "revenue": 1430.1,
+      "avg_ticket": 204.3,
+      "revenue_share": 0.0001,
+      "cumulative_share": 0.9998
+    },
+    {
+      "category_pt": "casa_conforto_2",
+      "category_en": "home_comfort_2",
+      "orders": 24,
+      "items": 30,
+      "revenue": 1170.58,
+      "avg_ticket": 48.77,
+      "revenue_share": 0.0001,
+      "cumulative_share": 0.9999
+    },
+    {
+      "category_pt": "cds_dvds_musicais",
+      "category_en": "cds_dvds_musicals",
+      "orders": 12,
+      "items": 14,
+      "revenue": 954.99,
+      "avg_ticket": 79.58,
+      "revenue_share": 0.0001,
+      "cumulative_share": 0.9999
+    },
+    {
+      "category_pt": "fashion_roupa_infanto_juvenil",
+      "category_en": "fashion_childrens_clothes",
+      "orders": 8,
+      "items": 8,
+      "revenue": 665.36,
+      "avg_ticket": 83.17,
+      "revenue_share": 0.0,
+      "cumulative_share": 1.0
+    },
+    {
+      "category_pt": "seguros_e_servicos",
+      "category_en": "security_and_services",
+      "orders": 2,
+      "items": 2,
+      "revenue": 324.51,
+      "avg_ticket": 162.26,
+      "revenue_share": 0.0,
+      "cumulative_share": 1.0
+    }
+  ]
+}

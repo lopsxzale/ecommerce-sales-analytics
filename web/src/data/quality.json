@@ -1,0 +1,140 @@
+{
+  "checks": [
+    {
+      "id": "excluded_orders",
+      "value": 1234,
+      "total": 99441,
+      "rate": 0.0124,
+      "label": {
+        "pt": "Pedidos cancelados ou indisponíveis",
+        "en": "Canceled or unavailable orders"
+      },
+      "treatment": {
+        "pt": "Excluídos das métricas de receita",
+        "en": "Excluded from revenue metrics"
+      }
+    },
+    {
+      "id": "orders_without_items",
+      "value": 775,
+      "total": 99441,
+      "rate": 0.0078,
+      "label": {
+        "pt": "Pedidos sem itens",
+        "en": "Orders without items"
+      },
+      "treatment": {
+        "pt": "Ignorados nas análises de receita (INNER JOIN)",
+        "en": "Ignored in revenue analyses (INNER JOIN)"
+      }
+    },
+    {
+      "id": "delivered_without_date",
+      "value": 8,
+      "total": 96478,
+      "rate": 0.0001,
+      "label": {
+        "pt": "Entregues sem data de entrega",
+        "en": "Delivered orders missing delivery date"
+      },
+      "treatment": {
+        "pt": "Excluídos das análises de prazo",
+        "en": "Excluded from delivery-time analyses"
+      }
+    },
+    {
+      "id": "orders_multiple_reviews",
+      "value": 547,
+      "total": 98673,
+      "rate": 0.0055,
+      "label": {
+        "pt": "Pedidos com mais de um review",
+        "en": "Orders with more than one review"
+      },
+      "treatment": {
+        "pt": "Mantido o review mais recente (ROW_NUMBER)",
+        "en": "Kept the most recent review (ROW_NUMBER)"
+      }
+    },
+    {
+      "id": "products_without_category",
+      "value": 610,
+      "total": 32951,
+      "rate": 0.0185,
+      "label": {
+        "pt": "Produtos sem categoria",
+        "en": "Products without category"
+      },
+      "treatment": {
+        "pt": "Agrupados como \"sem categoria\"",
+        "en": "Grouped as \"uncategorized\""
+      }
+    },
+    {
+      "id": "categories_without_translation",
+      "value": 2,
+      "total": 73,
+      "rate": 0.0274,
+      "label": {
+        "pt": "Categorias sem tradução para inglês",
+        "en": "Categories without English translation"
+      },
+      "treatment": {
+        "pt": "Usado o nome original em português",
+        "en": "Original Portuguese name used"
+      }
+    },
+    {
+      "id": "duplicate_reviews_removed",
+      "value": 0,
+      "total": 99224,
+      "rate": 0.0,
+      "label": {
+        "pt": "Reviews duplicados no CSV bruto",
+        "en": "Duplicate reviews in raw CSV"
+      },
+      "treatment": {
+        "pt": "Removidos na carga (chave review_id + order_id)",
+        "en": "Removed at load (review_id + order_id key)"
+      }
+    }
+  ],
+  "tables": {
+    "category_translation": {
+      "raw_rows": 71,
+      "loaded_rows": 71
+    },
+    "customers": {
+      "raw_rows": 99441,
+      "loaded_rows": 99441
+    },
+    "sellers": {
+      "raw_rows": 3095,
+      "loaded_rows": 3095
+    },
+    "products": {
+      "raw_rows": 32951,
+      "loaded_rows": 32951
+    },
+    "orders": {
+      "raw_rows": 99441,
+      "loaded_rows": 99441
+    },
+    "order_items": {
+      "raw_rows": 112650,
+      "loaded_rows": 112650
+    },
+    "order_payments": {
+      "raw_rows": 103886,
+      "loaded_rows": 103886
+    },
+    "order_reviews": {
+      "raw_rows": 99224,
+      "loaded_rows": 99224
+    },
+    "geolocation": {
+      "raw_rows": 1000163,
+      "loaded_rows": 1000163
+    }
+  }
+}
