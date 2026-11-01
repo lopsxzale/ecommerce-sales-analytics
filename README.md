@@ -2,7 +2,7 @@
 
 **O que 100 mil pedidos revelam sobre o e-commerce brasileiro.** Análise de ponta a ponta (ETL → PostgreSQL → SQL analítico → Python/estatística → site interativo) sobre dados reais do marketplace Olist, com cada achado convertido em recomendação de negócio.
 
-**[Ver o site ao vivo](#)** · [English version](#) · [Notebook de exploração](notebooks/01_exploracao.ipynb)
+**[Ver o site ao vivo](https://ecommerce-sales-analytics-delta.vercel.app/pt/)** · [English version](https://ecommerce-sales-analytics-delta.vercel.app/en/) · [Notebook de exploração](notebooks/01_exploracao.ipynb)
 
 ![Hero do site](docs/img/hero.jpg)
 
