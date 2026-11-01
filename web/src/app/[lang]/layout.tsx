@@ -22,7 +22,8 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
   const t = getDictionary(lang);
   return {
     ...(site.url ? { metadataBase: new URL(site.url) } : {}),
-    title: t.meta.title,
+    // Aba do navegador: curto e objetivo. A manchete completa fica no compartilhamento (OG).
+    title: t.meta.tabTitle,
     description: t.meta.description,
     authors: [{ name: site.author }],
     // URLs canônicas exigem domínio absoluto: só entram quando site.url estiver definido.

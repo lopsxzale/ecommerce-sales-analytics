@@ -1,6 +1,6 @@
 import "../globals.css";
 
-export const metadata = { title: "Olist Analytics" };
+export const metadata = { title: "Vendas E-commerce BR · Análise de dados" };
 
 export default function RootRedirectLayout({ children }: { children: React.ReactNode }) {
   return (

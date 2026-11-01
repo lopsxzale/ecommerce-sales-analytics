@@ -2,6 +2,7 @@ import type { Dictionary } from "./pt";
 
 export const en: Dictionary = {
   meta: {
+    tabTitle: "Brazil E-commerce Sales · Data Analysis",
     title: "What 100,000 orders reveal about Brazilian e-commerce",
     description:
       "End-to-end data analysis case study (SQL, Python, statistics) on 100k real orders from the Olist marketplace, with quantified business recommendations.",

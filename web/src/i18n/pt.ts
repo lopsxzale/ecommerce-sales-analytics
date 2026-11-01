@@ -1,6 +1,7 @@
 // Textos com {chave} são preenchidos com números reais vindos de src/data/*.json.
 export const pt = {
   meta: {
+    tabTitle: "Vendas E-commerce BR · Análise de dados",
     title: "O que 100 mil pedidos revelam sobre o e-commerce brasileiro",
     description:
       "Case de análise de dados de ponta a ponta (SQL, Python, estatística) sobre 100 mil pedidos reais do marketplace Olist, com recomendações de negócio quantificadas.",

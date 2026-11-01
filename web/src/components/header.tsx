@@ -4,6 +4,7 @@ import { AnimatePresence, motion, useScroll, useSpring } from "motion/react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { lockScroll, scrollToId } from "@/lib/lenis";
+import { Logo } from "./logo";
 import { useI18n } from "./providers";
 
 const SECTIONS = ["summary", "delays", "revenue", "seasonality", "customers", "logistics", "actions", "method"] as const;
@@ -112,11 +113,7 @@ export function Header() {
             aria-label="Olist Analytics"
             className="flex items-center gap-2 text-sm font-semibold tracking-tight text-ink"
           >
-            <span aria-hidden className="grid size-7 place-items-center rounded-lg bg-accent text-brand-ink">
-              <svg width="15" height="15" viewBox="0 0 16 16" fill="none">
-                <path d="M2.5 13.5V9M6.2 13.5V5.5M9.8 13.5V8M13.5 13.5V2.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-              </svg>
-            </span>
+            <Logo />
             <span className="hidden sm:inline">Olist Analytics</span>
           </button>
 
