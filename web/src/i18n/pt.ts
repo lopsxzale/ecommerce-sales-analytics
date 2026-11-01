@@ -256,8 +256,8 @@ export const pt = {
   },
   about: {
     eyebrow: "Autor",
-    title: "Gostou da análise? Vamos conversar.",
-    text: "Sou {author}, trabalho com dados para transformar perguntas de negócio em decisões. Busco oportunidades remotas em análise de dados.",
+    title: "Obrigado por chegar até aqui.",
+    text: "Sou {author}. Fiz este projeto para aprofundar na prática o ciclo completo de uma análise: da modelagem do banco e do SQL à estatística e à comunicação dos resultados.",
     github: "GitHub",
     linkedin: "LinkedIn",
     email: "E-mail",

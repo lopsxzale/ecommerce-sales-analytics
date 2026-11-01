@@ -257,8 +257,8 @@ export const en: Dictionary = {
   },
   about: {
     eyebrow: "Author",
-    title: "Liked the analysis? Let's talk.",
-    text: "I'm {author}. I work with data to turn business questions into decisions, and I'm looking for remote data analysis opportunities.",
+    title: "Thanks for reading this far.",
+    text: "I'm {author}. I built this project to get hands-on with the full analysis cycle: from database modeling and SQL to statistics and communicating the results.",
     github: "GitHub",
     linkedin: "LinkedIn",
     email: "Email",
